@@ -26,9 +26,16 @@
         # Firefox State
         ".mozilla"
         ".cache/mozilla"
+
+				# App State
+				".config/spotify"
       ];
 
-      files = [".config/gh/hosts.yml"];
+      files = [
+				".config/gh/hosts.yml"
+				".config/sops/age/keys.txt"
+				".config/vesktop/settings.json"
+			];
       allowOther = true;
     };
 

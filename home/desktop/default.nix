@@ -6,7 +6,8 @@
 }: {
   imports = [
     ./util.nix
-  ];
+  	./binds.nix
+	];
 
   home.sessionVariables = {
     NIXOS_OZONE_WL = 1;
@@ -26,8 +27,6 @@
       "$terminal" = config.prefs.terminal;
       "$menu" = config.prefs.menu;
       "$browser" = config.prefs.browser;
-
-      bind = import ./binds.nix;
 
       general = {
         layout = "master";

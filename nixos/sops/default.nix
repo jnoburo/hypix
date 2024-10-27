@@ -15,6 +15,13 @@
 
     secrets = {
       primary.neededForUsers = true;
-    };
+    	
+			github-key = {
+				owner = "noburo";
+			};
+			spotify-key = {
+				owner = "noburo";
+			};
+		};
   };
 }

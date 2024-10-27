@@ -20,4 +20,5 @@
       editor = config.prefs.editor;
     };
   };
+
 }

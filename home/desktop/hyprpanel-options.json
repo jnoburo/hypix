@@ -18,38 +18,8 @@
         "network",
         "bluetooth",
         "battery",
+        "clock",
         "systray",
-        "clock",
-        "notifications"
-      ]
-    },
-    "1": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "2": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
         "notifications"
       ]
     }
@@ -60,7 +30,7 @@
   "menus.dashboard.stats.enabled": true,
   "menus.dashboard.controls.enabled": false,
   "menus.dashboard.directories.enabled": false,
-  "menus.dashboard.shortcuts.enabled": false,
+  "menus.dashboard.shortcuts.enabled": true,
   "theme.bar.floating": false,
   "theme.bar.buttons.enableBorders": false,
   "theme.bar.buttons.dashboard.enableBorder": false,
@@ -426,5 +396,19 @@
   "theme.bar.buttons.modules.submap.text": "#9ccfd8",
   "theme.bar.buttons.modules.submap.border": "#9ccfd8",
   "theme.bar.buttons.modules.submap.icon": "#9ccfd8",
-  "theme.bar.buttons.modules.submap.icon_background": "#21202e"
+  "theme.bar.buttons.modules.submap.icon_background": "#21202e",
+  "theme.osd.enable": true,
+  "menus.dashboard.shortcuts.left.shortcut2.command": "spotify",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰈹",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
+  "menus.dashboard.shortcuts.left.shortcut4.command": "wofi --show drun",
+  "notifications.ignore": [
+    "spotify"
+  ],
+  "notifications.active_monitor": false,
+  "theme.osd.orientation": "horizontal",
+  "theme.osd.location": "bottom right",
+  "theme.osd.muted_zero": true,
+  "theme.osd.margins": "0px 10px 10px 0px"
 }
